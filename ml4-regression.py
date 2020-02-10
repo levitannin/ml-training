@@ -41,7 +41,7 @@ y = np.array(df['label'])
 #This will take 20% of the data and use it to test the cross validation, using the other 80% to train.
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
-clf = LinearRegression()
+clf = LinearRegression(n-jobs = 10)   #How many jobs you want run in parallel.
 clf.fit(X_train, y_train)					#syn with train
 accuracy = clf.score(X_test, y_test)		#syn with test
 
