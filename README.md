@@ -17,4 +17,5 @@ Update shown in program uploaded in this repository.
 Reviewing perceptron in python:
 
 Based on following along with Single-Layer Perceptron: Background & Python Code -- Brian Faure
+
 https://youtu.be/OVHc-7GYRo4
