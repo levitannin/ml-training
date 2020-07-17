@@ -78,15 +78,11 @@ try:
         #   ? == 0 or 1
         #   * == 0 or MORE
         #   | == or
-        chunkGram = r""" Chunk: {<RB.?>*<VB.?>*<NNP>+<NN>?} }<VB.?|IN|DT>+{"""
+        chunkGram = r""" Chunk: {<RB.?>*<VB.?>*<NNP>+<NN>?} """
         chunkParser = RegexpParser(chunkGram)
         chunked = chunkParser.parse(tag)
         #   Will generate a pop-up box with the chucks drawn out in a chart.
         chunked.draw()
-        
-        #   Identifying entities to chunk together.
-        Ent = ne_chunk(tag)
-        Ent.draw()
         
 except Exception as e:
     print(str(e))
