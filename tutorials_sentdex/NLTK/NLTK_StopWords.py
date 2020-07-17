@@ -8,7 +8,7 @@ This program is a tutoiral in using NLTK to identify words and sentences.
 The purposes of this program is to practice with NLTK before moving into
 dynamic projects in the future.
 
-This is Part 2 -- focused on tokenization and stemming words.
+This is Part 2 -- focused on tokenization and identifying stop words.
 """
 
 from nltk.tokenize import word_tokenize
