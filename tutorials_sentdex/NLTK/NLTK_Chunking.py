@@ -8,7 +8,7 @@ This program is a tutoiral in using NLTK to identify words and sentences.
 The purposes of this program is to practice with NLTK before moving into
 dynamic projects in the future.
 
-This is Part 3 -- focused on tokenization and stemming words.
+This is Part 5 -- focused on chunking; identifying groups in words based on parts of speech
 """
 
 from nltk.tokenize import word_tokenize, PunktSentenceTokenizer
